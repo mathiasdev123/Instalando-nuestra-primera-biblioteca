@@ -10,3 +10,7 @@ h1, h2, h3, p{
 p{
   color: rgb(100, 100, 100);
 }
+
+code{
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
