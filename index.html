@@ -84,5 +84,1022 @@
       que un desarrollador puede "llamar" para realizar una acción, haciendo <br>
       el proceso de creación de software más rápido, robusto y <br>
       eficiente. </p>
+
+    <p>Eso fue todo y recuerda: No programes paar solucionar problemas, programa para crear soluciones</p>
+
+    <code>#primer hola mundo
+
+print("¡Hola mundo!")
+
+#prints
+
+print("Texto")
+
+print(1+1)
+
+#datos simples (string en una linea, string en 2 lineas, int, float, true y fal
+# se)
+"string"
+
+'string'
+
+"""string"""
+
+'''string'''
+
+0
+
+0.1
+
+True
+
+False
+
+#variables y como mostrarlas (variables de texto y de numeros)
+
+a = 1
+
+b = 2
+
+c = a + b
+
+variable_de_texto = "valor de la variable de texto"
+
+print(a)
+
+print(b)
+
+print(c)
+
+print(variable_de_texto)
+
+b += 3
+
+print(b)
+
+texto = "texto "
+
+el_texto_sigue = "el " + texto + "sigue"
+
+print(el_texto_sigue)
+
+uno = 1
+
+un_uno_es_un_numero = f"un {uno} es un numero"
+
+print(un_uno_es_un_numero)
+
+variable_que_vamos_a_eliminar = 4
+
+del variable_que_vamos_a_eliminar
+
+print("numero" in un_uno_es_un_numero)
+
+print("un" not in un_uno_es_un_numero)
+
+tupla_dos = ("Elemento de texto de tupla", 5)
+
+elemento_de_texto,cinco = tupla_dos
+
+print(elemento_de_texto)
+
+print(cinco)
+
+#datos compuestos (list, array, set y dict)
+
+lista = ["elemento de texto de lista", 1]
+
+tupla = ("elemento de texto de tupla", 2)
+
+conjunto = {"elemento de texto de conjunto", 3}
+
+diccionario = {
+    'elemento de texto de diccionario' : "elemento de texto de diccionario",
+    'cinco' : 5
+}
+
+print(diccionario["elemento de texto de diccionario"])
+
+print(diccionario["cinco"])
+
+print(diccionario)
+
+print(tupla)
+
+print(lista)
+
+print(lista[0])
+
+print(lista[1])
+
+lista[1] = 3
+
+print(lista[1])
+
+conjunto = {"otro elemento de texto de el conjunto", 4, "otro elemento de texto de el conjunto"}
+
+print(conjunto)
+
+diccionario_cinco = dict(elemento_de_texto_de_diccionario="Elemento de texto de diccionario",seis=6)
+
+diccionario_seis = dict.fromkeys("Elemento de texto de diccionario", "siete")
+
+diccionario_siete = {
+    ("Elemento de texto de tupla", 8): "Elemento de texto del diccionario",
+    "nueve": 9
+}
+
+print(diccionario_cinco)
+
+print(diccionario_seis)
+
+print(diccionario_siete)
+
+#operadores aritmeticos (suma, resta, multiplicacion, division, modulo, exponen
+# te y division baja)
+
+suma = 1 + 1
+
+resta = 2 - 2
+
+multiplicacion = 3 * 3
+
+division = 4 / 4
+
+exponente = 5 ** 5
+
+division_baja = 6 // 6
+
+modulo = 7 % 7
+
+su_tipo_es = type(8)
+
+su_tipo_es_float = type(9.9)
+
+su_tipo_es_suma = type(suma)
+
+su_tipo_es_resta = type(resta)
+
+su_tipo_es_multiplicacion = type(multiplicacion)
+
+su_tipo_es_division = type(division)
+
+su_tipo_es_exponente = type(exponente)
+
+su_tipo_es_division_baja = type(division_baja)
+
+su_tipo_es_modulo = type(modulo)
+
+print(suma)
+
+print(resta)
+
+print(multiplicacion)
+
+print(division)
+
+print(exponente)
+
+print(division_baja)
+
+print(modulo)
+
+print(su_tipo_es)
+
+print(su_tipo_es_float)
+
+print(su_tipo_es_suma)
+
+print(su_tipo_es_resta)
+
+print(su_tipo_es_multiplicacion)
+
+print(su_tipo_es_division)
+
+print(su_tipo_es_exponente)
+
+print(su_tipo_es_division_baja)
+
+print(su_tipo_es_modulo)
+
+#operadores de comparacion (igual que, distinto de, menor que, mayor que, menor
+# o igual que y mayor o igual que)
+
+igual_que = 1 == 1
+
+no_igual_que = 2 == 3
+
+distinto_de = 4 != 5
+
+no_distinto_de = 6 != 6
+
+mayor_que = 8 > 7
+
+no_mayor_que = 9 > 10
+
+menor_que = 11 < 12
+
+no_menor_que = 14 < 13
+
+mayor_o_igual_que = 16 >= 15
+
+mayor_o_igual_que_dos = 17 >= 17
+
+no_mayor_o_igual_que = 18 >= 19
+
+menor_o_igual_que = 20 <= 21
+
+menor_o_igual_que_dos = 22 <= 22
+
+no_menor_o_igual_que = 24 <= 23
+
+un_texto = "Texto"
+
+otro_texto = "Texto"
+
+comparacion_de_texto = un_texto == otro_texto
+
+print(igual_que)
+
+print(no_igual_que)
+
+print(distinto_de)
+
+print(no_distinto_de)
+
+print(mayor_que)
+
+print(no_mayor_que)
+
+print(menor_que)
+
+print(no_menor_que)
+
+print(mayor_o_igual_que)
+
+print(mayor_o_igual_que_dos)
+
+print(no_mayor_o_igual_que)
+
+print(menor_o_igual_que)
+
+print(menor_o_igual_que_dos)
+
+print(no_menor_o_igual_que)
+
+#condicionales (if, elif y else)
+
+numero = 2
+
+if numero >= 2:
+    print("valido")
+else:
+    print("invalido")
+
+numero = 1
+
+if numero >= 2:
+    print("valido")
+else:
+    print("invalido")
+    
+numero = 1
+
+if numero > 1000:
+    print("numero extra grande")
+elif numero > 100:
+    print("numero grande")
+elif numero > 10:
+    print("numero mediano")
+else:
+    print("numero pequeño")
+    
+numero = 11
+
+if numero > 1000:
+    print("numero extra grande")
+elif numero > 100:
+    print("numero grande")
+elif numero > 10:
+    print("numero mediano")
+else:
+    print("numero pequeño")
+    
+numero = 101
+
+if numero > 1000:
+    print("numero extra grande")
+elif numero > 100:
+    print("numero grande")
+elif numero > 10:
+    print("numero mediano")
+else:
+    print("numero pequeño")
+    
+numero = 1001
+
+if numero > 1000:
+    print("numero extra grande")
+elif numero > 100:
+    print("numero grande")
+elif numero > 10:
+    print("numero mediano")
+else:
+    print("numero pequeño")
+    
+numero = 1001
+
+sustraccion = 501
+
+if numero > 1000:
+    if sustraccion > 500:
+        print("numero extra grande pero resta grande")
+    else:
+        print("numero extra grande")
+elif numero > 100:
+    if sustraccion > 50:
+        print("numero grande pero resta mediana")
+    else:
+        print("numero grande")
+elif numero > 10:
+    if sustraccion > 5:
+        print("numero mediano pero resta pequeña")
+    else:
+        print("numero mediano")
+else:
+    print("numero pequeño")
+    
+#operadores logicos (And, Or y Not)
+
+falso_o_verdadero = True and True
+
+falso_o_verdadero_dos = False and True
+
+falso_o_verdadero_tres = False or True
+
+falso_o_verdadero_cuatro = False or False
+
+falso_o_verdadero_cinco = not True
+
+falso_o_verdadero_seis = not False
+
+print(falso_o_verdadero)
+
+print(falso_o_verdadero_dos)
+
+print(falso_o_verdadero_tres)
+
+print(falso_o_verdadero_cuatro)
+
+print(falso_o_verdadero_cinco)
+
+print(falso_o_verdadero_seis)
+
+#metodos de cadenas (upper, lower. capitalize, find, index, isnumeric, isalpha,
+# count, startswith, endswith, replace y split)
+
+cadena = "texto"
+
+cadena_dos = "TEXTO"
+
+cadena_tres = "textO"
+
+cadena_cuatro = "Texto"
+
+cadena_cinco = "Texto"
+
+cadena_seis = "1"
+
+cadena_siete = "texto"
+
+cadena_ocho = "Texto"
+
+cadena_nueve = "Texto"
+
+cadena_diez = "Texto"
+
+cadena_once = "Aexto"
+
+cadena_doce = "Algo,otra cosa"
+
+print(cadena.upper())
+
+print(cadena_dos.lower())
+
+print(cadena_tres.capitalize())
+
+print(cadena_cuatro.find("T"))
+
+print(cadena_cinco.index("e"))
+
+print(cadena_seis.isnumeric())
+
+print(cadena_siete.isalpha())
+
+print(cadena_ocho.count("T"))
+
+print(cadena_nueve.startswith("T"))
+
+print(cadena_diez.endswith("o"))
+
+print(cadena_once.replace("A", "T"))
+
+print(cadena_doce.split(","))
+
+#metodos de listas (append, insert, extend, pop y remove)
+
+lista_dos = ["Elemento de texto de lista", 1]
+
+lista_tres = ["Elemento de texto de lista", 2]
+
+lista_tres.append("Otro elemento de texto de lista")
+
+lista_cuatro = ["Elemento de texto de lista", 3]
+
+lista_cuatro.insert(1, "Otro elemento de texto de lista")
+
+lista_cinco = ["Elemento de texto de lista", 4]
+
+lista_cinco.extend(["Otro elemento de texto de lista", 5])
+
+lista_seis = ["Elemento de texto de lista", "Otro elemento de texto de lista", 6]
+
+lista_seis.pop(1)
+
+lista_siete = ["Elemento de texto de lista", "Otro elemento de texto de lista", 7]
+
+lista_siete.remove("Otro elemento de texto de lista")
+
+lista_ocho = ["Elemento de texto de lista", 8]
+
+lista_ocho.clear()
+
+lista_nueve = [10, 9, True, False]
+
+lista_nueve.sort()
+
+lista_diez = [False, True, 11, 12]
+
+lista_diez.reverse()
+
+print(len(lista_dos))
+
+print(lista_tres)
+
+print(lista_cuatro)
+
+print(lista_cinco)
+
+print(lista_seis)
+
+print(lista_siete)
+
+print(lista_ocho)
+
+print(lista_nueve)
+
+print(lista_diez)
+
+#metodos de diccionarios (keys, gets y items)
+
+diccionario_dos = {
+    "Elemento de texto de diccionario" : "Elemento de texto del diccionario",
+    "uno" : 1
+}
+
+diccionario_tres = {
+    "Elemento de texto de diccionario" : "Elemento de texto del diccionario",
+    "uno" : 1
+}
+
+diccionario_cuatro = {
+    "Elemento de texto de diccionario" : "Elemento de texto del diccionario",
+    "uno" : 1
+}
+
+print(diccionario_dos.keys())
+
+print(diccionario_tres.get("Elemento de texto de diccionario"))
+
+print(diccionario_cuatro.items())
+
+#inputs (escribir numeros y texto)
+
+respuesta = input("Escribe texto: ")
+
+respuesta_dos = input("Escribe un numero: ")
+
+operacion_con_respuesta_dos = int(respuesta_dos) * 2 
+
+print(respuesta)
+
+print(f"Tu texto es: {respuesta}")
+
+print(operacion_con_respuesta_dos)
+
+#bucles for
+
+lista_once = ["Elemento de texto de lista", 1]
+
+lista_doce = [2, 3]
+
+lista_trece = ["Elemento de texto de lista", 4]
+
+lista_catorce = ["Elemento de texto de lista", 5]
+
+lista_quince = ["Elemento de texto de lista", 6]
+
+lista_dieciseis = ["Elemento de texto de lista", 7]
+
+tupla_tres = ("Elemento de texto de tupla", 8)
+
+diccionario_ocho = {
+    "elemento de texto de diccionario" : "Elemento de texto de diccionario",
+    "nueve" : 9
+}
+
+lista_diecisiete = ["Elemento de texto de lista", "Otro elemento de texto de lista", 10]
+
+lista_dieciocho = ["Elemento de texto de lista", 11, 12]
+
+cadena_trece = "Texto"
+
+for elementos_de_lista_once in lista_once:
+    print(elementos_de_lista_once)
+    
+for elmentos_de_lista_doce in lista_doce:
+    print(elmentos_de_lista_doce * 13)
+    
+for elemento_de_lista_trece,elemento_de_lista_catorce in zip(lista_trece,lista_catorce):
+    print(elemento_de_lista_trece)
+    print(elemento_de_lista_catorce)
+    
+for numeros in range(14,16):
+    print(numeros)
+    
+for indice in enumerate(lista_quince):
+    print(indice)
+    
+for elementos_de_lista_dieciseis in lista_dieciseis:
+    print(elementos_de_lista_dieciseis)
+else:
+    print("Fin del bucle for")
+    
+for elementos_de_tupla_tres in tupla_tres:
+    print(elementos_de_tupla_tres)
+    
+for elementos_de_diccionario_ocho in diccionario_ocho.items():
+    print(elementos_de_diccionario_ocho)
+    
+for elementos_de_lista_diecisiete in lista_diecisiete:
+    if elementos_de_lista_diecisiete == "Otro elemento de texto de lista":
+        continue
+    print(elementos_de_lista_diecisiete)
+    
+for elementos_de_lista_dieciocho in lista_dieciocho:
+    if elementos_de_lista_dieciocho == 12:
+        break
+    print(elementos_de_lista_dieciocho)
+    
+for letras_de_cadena_trece in cadena_trece:
+    print(letras_de_cadena_trece)
+    
+#bucle while
+
+conteo = 0
+
+while conteo < 10:
+    print(conteo)
+    conteo += 1
+    
+#funciones integradas (max, min, round, bool, all y sum)
+
+lista_diecinueve = [1, 9, 8, 2, 3, 7, 6, 4, 5]
+
+lista_veinte = [1, 9, 8, 2, 3, 7, 6, 4, 5]
+
+redondeo = 10.511
+
+prueba_booleana = 12
+
+lista_veintiuno = [13, 14]
+
+lista_veintidos = [15, 16]
+
+print(max(lista_diecinueve))
+
+print(min(lista_veinte))
+
+print(round(redondeo,1))
+
+print(bool(prueba_booleana))
+
+print(all(lista_veintiuno))
+
+print(sum(lista_veintidos))
+
+#funciones propias
+
+def funcion():
+    print("Texto")
+    
+funcion()
+
+def oracion(texto):
+    print(f"Esta oracion tiene un/a: {texto}")
+    
+oracion(input("Elige un texto para la oracion: "))
+
+def contraseña(num):
+    chars = "abcdefghij"
+    num_entero = str(num)
+    num = int(num_entero[0])
+    c1 = num -2
+    c2 = num
+    c3 = num -5
+    contraseña = f"{chars[c1]}{chars[c2]}{chars[c3]}{num*2}"
+    print(contraseña)
+    
+password = contraseña(input("Ingresa una contraseña numerica: "))
+
+def sumar(a,b):
+    print(a+b)
+    
+sumar(1,2)
+
+def sumar_listas(*numeros):
+    print(sum(numeros))
+    
+sumar_listas(1, 2, 3, 4, 5)
+
+#funciones lambda
+
+funcion_anonima = lambda x : x*2
+
+print(funcion_anonima)
+
+#modulos
+
+import secondary as scdr
+
+scdr.funcion_de_modulo_secundario()
+
+from tertiary import funcion_de_modulo_terciario
+
+funcion_de_modulo_terciario()
+
+#enrutamiento de modulos
+
+import carpeta_de_proyecto_de_python.main_of_python_project_folder as moppf
+
+moppf.funcion_de_modulo_principal_de_carpeta_de_proyecto_de_python()
+
+#paquetes
+
+import paquete_de_proyecto_de_python
+
+paquete_de_proyecto_de_python.main_of_python_project_package.funcion_de_modulo_principal_de_paqeuete_de_proyecto_de_python()
+
+import paquete_de_proyecto_de_python_dos.subpaquete_de_paquete_de_proyecto_de_python_dos
+
+paquete_de_proyecto_de_python_dos.subpaquete_de_paquete_de_proyecto_de_python_dos.main_of_python_project_subpackage.funcion_de_modulo_principal_de_subpaquete_de_paquete_de_proyecto_de_python_dos()
+
+#archivos .txt
+
+with open("archivo_de_texto_de_proyecto_de_python.txt",encoding="UTF-8") as archivo_de_texto:
+    print(archivo_de_texto.read())
+
+with open("archivo_de_texto_de_proyecto_de_python_dos.txt",encoding="UTF-8") as archivo_de_texto_dos:
+    print(archivo_de_texto_dos.readlines())
+
+with open("archivo_de_texto_de_proyecto_de_python_tres.txt",encoding="UTF-8") as archivo_de_texto_tres:
+    print(archivo_de_texto_tres.readline())
+
+with open("archivo_de_texto_de_proyecto_de_python_cuatro.txt", "w",encoding="UTF-8") as archivo_de_texto_cuatro:
+    archivo_de_texto_cuatro.write("Texto linea 3")
+
+with open("archivo_de_texto_de_proyecto_de_python_cinco.txt", "w",encoding="UTF-8") as archivo_de_texto_cinco:
+    archivo_de_texto_cinco.writelines(["Texto linea 3", " y sigue el texto"])
+
+#archivos .csv
+
+import pandas as pd
+
+print(pd.read_csv("archivo_de_datos_de_proyecto_de_python.csv", header=None))
+
+df = pd.read_csv("archivo_de_datos_de_proyecto_de_python_dos.csv", names=["Columna 1", "Columna 2"])
+
+print(df["Columna 1"])
+
+df_dos = pd.read_csv("archivo_de_datos_de_proyecto_de_python.csv", names=["Columna 1", "Columna 2"])
+
+print(df_dos.sort_values("Columna 2"))
+
+df_tres = pd.read_csv("archivo_de_datos_de_proyecto_de_python_cuatro.csv", names=["Columna 1", "Columna 2"])
+
+df_cuatro = pd.read_csv("archivo_de_datos_de_proyecto_de_python_cinco.csv", names=["Columna 1", "Columna 2"])
+
+print(pd.concat([df_tres, df_cuatro]))
+
+#trabajando con graficos
+
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+
+df_cinco = pd.read_csv("archivo_de_grafico.csv", names=["Numero", "Texto"])
+
+sns.lineplot(x="Texto", y="Numero", data=df_cinco)
+
+plt.show()
+
+df_seis = pd.read_csv("archivo_de_grafico_dos.csv", names=["Ingresos", "Trabajo"])
+
+sns.barplot(x="Trabajo", y="Ingresos", data=df_seis)
+
+plt.show()
+
+#POO
+
+class Pizza():
+    molde = "masa cocinada"
+    salsa = "de tomate"
+    queso = "mozzarella"
+    def __init__(self, ingredientes):
+        self.ingredientes = ingredientes
+
+pizza = Pizza("queso extra")
+
+print(pizza.ingredientes)
+
+class Celular():
+    def __init__(self, marca, modelo):
+        self.marca = marca
+        self.modelo = modelo
+    def llamar(self):
+        print(f"Llamando con {self.marca} {self.modelo}...")
+        print("Llamada")
+    def cortar(self):
+        print("Fin de la llamada")
+
+celular_uno = Celular("Samsung", "Galaxy S25 Ultra")
+
+celular_uno.llamar()
+
+celular_uno.cortar()
+
+class Computadora(Celular):
+    def __init__(self, mouse, teclado, torre, bocina, marca, modelo):
+        super().__init__(marca, modelo)
+        self.mouse = mouse
+        self.teclado = teclado
+        self.torre = torre
+        self.bocina = bocina
+    def programar(self):
+        print("Programando...")
+        print("Codigo escrito, es una calculadora")
+
+computadora_uno = Computadora("Logitech", "Mechanical", "Gamer", "Bose", "HP", "PAVILION")
+
+print(computadora_uno.marca)
+
+print(computadora_uno.modelo)
+
+print(computadora_uno.mouse)
+
+print(computadora_uno.teclado)
+
+print(computadora_uno.torre)
+
+print(computadora_uno.bocina)
+
+class Galleta():
+    base = "mezcla dulce horneada"
+    def comer(self):
+        print("comiendo... ")
+        print("ñam ñam ñam")
+        print("fin de la galleta")
+
+class GalletaDeChispasDeChocolate(Galleta):
+        chispas = "chispas de chocolate"
+        def comer(self):
+            print("comiendo... ")
+            print("ñam ñam ñam")
+            print("fin de la galleta de chispas de chocolate")
+
+class GalletaDePasas(Galleta):
+    chispas = "pasas"
+    def comer(self):
+            print("comiendo... ")
+            print("ñam ñam ñam")
+            print("fin de la galleta de pasas")
+
+class GalletaDeChispasDeChocolateYPasas(GalletaDeChispasDeChocolate, GalletaDePasas):
+    chispas = "chispas de chocolate y pasas"
+    def comer(self):
+            print("comiendo... ")
+            print("ñam ñam ñam")
+            print("fin de la galleta de chispas de chocolate y pasas")
+
+galleta = Galleta()
+
+galleta_dos = GalletaDeChispasDeChocolate()
+
+galleta_tres = GalletaDePasas()
+
+galleta_cuatro = GalletaDeChispasDeChocolateYPasas()
+
+print(issubclass(GalletaDeChispasDeChocolate, Galleta))
+
+galleta_cuatro.comer()
+
+GalletaDeChispasDeChocolate.comer(galleta_cuatro)
+
+#Excepciones
+
+def sumar():
+    while True:
+        try:
+            a = int(input("ingresa un numero: "))
+            b = int(input("ingresa otro numero numero: "))
+            print(a + b)
+        except Exception as e:
+            print("Mensaje de Excepcion: Te pedi numeros y me diste otra cosa")
+            print(f"Excepcion: {e}")
+            print(f"Tipo de excepcion: {type(e).__name__}")
+            print("Intenta de nuevo")
+        else:
+            break
+        finally:
+            print("Esto se ejecutara siempre")
+
+sumar()
+
+#Expresiones regulares
+
+import re
+
+cadena_catorce = "Texto"
+
+cadena_quince = "Texto"
+
+cadena_dieciseis = "Texto 1"
+
+cadena_diecisiete = "Texto 2"
+
+cadena_dieciocho = "Texto 3 _"
+
+cadena_diecinueve = """Texto 4 _
+! · $ % & / ( )=?¿"""
+
+cadena_veinte = """Texto  
+"""
+
+cadena_veintiuno = """Texto  
+"""
+
+cadena_veinti_dos = """Texto 
+"""
+
+cadena_veinti_tres = """Texto  
+"""
+
+cadena_veinti_cuatro = "Texto ."
+
+cadena_veinti_cinco = "Texto 5. "
+
+cadena_veinti_seis = """Texto
+T"""
+
+cadena_veinti_siete = """Texto
+To"""
+
+cadena_veinti_ocho = "Texto 6789"
+
+cadena_veinti_nueve = "Texto"
+
+cadena_treinta = "Texto"
+
+print(re.search("T", cadena_catorce))
+
+print(re.findall("T", cadena_quince, flags=re.IGNORECASE))
+
+print(re.findall(r"\d", cadena_dieciseis))
+
+print(re.findall(r"\D", cadena_diecisiete))
+
+print(re.findall(r"\w", cadena_dieciocho))
+
+print(re.findall(r"\W", cadena_diecinueve))
+
+print(re.findall(r"\s", cadena_veinte))
+
+print(re.findall(r"\S", cadena_veintiuno))
+
+print(re.findall(r".", cadena_veinti_dos))
+
+print(re.findall(r"\n", cadena_veinti_tres))
+
+print(re.findall(r"\.", cadena_veinti_cuatro))
+
+print(re.findall(f"\d\.\s", cadena_veinti_cinco))
+
+print(re.findall(r"^T", cadena_veinti_seis, flags=re.M))
+
+print(re.findall(r"o$", cadena_veinti_siete, flags=re.M))
+
+print(re.findall(r"\d{2,3}", cadena_veinti_ocho))
+
+print(re.findall(r"Te", cadena_veinti_nueve))
+
+print(re.findall(r"Te|xto", cadena_treinta))
+
+#turtle
+
+import turtle as t
+
+forma_barco = (
+    (-20, -5),	
+    (20, -5),
+    (20, 0),
+    (-20, 0),
+    (0, 0),
+    (0, 20),
+    (10, 5),
+    (-10, 5),
+    (0, 0)
+)
+
+t.Screen().register_shape("barco-pirata", forma_barco)
+
+t.shape("barco-pirata")
+
+t.pencolor("green")
+
+t.speed(1)
+
+t.forward(50)
+
+t.left(135)
+
+t.forward(75)
+
+t.left(135)
+
+t.forward(55)
+
+t.forward(25)
+
+t.forward(50)
+
+t.left(90)
+
+t.forward(50)
+
+t.left(90)
+
+t.forward(50)
+
+t.left(90)
+
+t.forward(50)
+
+t.left(90)
+
+t.left(90)
+
+t.forward(100)
+
+t.forward(25)
+
+t.right(45)
+
+t.forward(25)
+
+t.right(45)
+
+t.forward(25)
+
+t.right(45)
+
+t.forward(25)
+
+t.right(45)
+
+t.forward(25)
+
+t.right(45)
+
+t.forward(25)
+
+t.right(45)
+
+t.forward(25)
+
+t.right(45)
+
+t.forward(25)
+
+t.done()</code>
   </body>
 </html>
