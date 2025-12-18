@@ -1,0 +1,12 @@
+body{
+  background: linear-gradient(rgb(255, 248, 231), rgb(0, 0, 0));
+}
+
+h1, h2, h3, p{
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+}
+
+p{
+  color: rgb(100, 100, 100);
+}
